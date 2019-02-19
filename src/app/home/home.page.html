@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <ion-img src="/assets/nossiBuilding.jpg"></ion-img>
+      <ion-card-header>
+        <!-- <ion-card-subtitle>Get Started</ion-card-subtitle> -->
+        <ion-card-title>Welcome to Nossi!</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p id="cardText">If you are enrolling, check out the degree programs below! Click Apply to apply to the college today!</p>
+        <ion-item href="/signup">
+          <ion-label id="signuplabel">APPLY</ion-label>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+    <ion-list lines="none">
+      <ion-list-header>
+        <ion-label>Degree Programs</ion-label>
+      </ion-list-header>
+      <ion-item href="https://nossi.edu/degree-programs/illustration/">
+        <!-- <ion-icon slot="start" color="medium" name="book"></ion-icon> -->
+        <ion-label id="label1">ILLUSTRATION</ion-label>
+      </ion-item>
+      <ion-item href="https://nossi.edu/degree-programs/graphic-design/">
+        <!-- <ion-icon slot="start" color="medium" name="build"></ion-icon> -->
+        <ion-label id="label2">GRAPHIC DESIGN</ion-label>
+      </ion-item>
+      <ion-item href="https://nossi.edu/degree-programs/photography/">
+        <!-- <ion-icon slot="start" color="medium" name="grid"></ion-icon> -->
+        <ion-label id="label3">PHOTOGRAPHY</ion-label>
+      </ion-item>
+      <ion-item href="https://nossi.edu/degree-programs/web-and-interactive/">
+        <!-- <ion-icon slot="start" color="medium" name="color-fill"></ion-icon> -->
+        <ion-label id="label4">WEB AND INTERACTIVE DESIGN</ion-label>
+      </ion-item>
+    </ion-list>
+</ion-content>

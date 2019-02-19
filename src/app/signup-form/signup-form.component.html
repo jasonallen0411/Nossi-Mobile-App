@@ -1,0 +1,114 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+        Application Form
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <ion-input placeholder="First Name"></ion-input>
+      <ion-input placeholder="Last Name"></ion-input>
+      <ion-input type="email" placeholder="Email"></ion-input>
+      <ion-input placeholder="Adress"></ion-input>
+      <ion-input placeholder="City"></ion-input>
+      <ion-input placeholder="State"></ion-input>
+      <ion-input type="number" placeholder="Zip"></ion-input>
+      <ion-input type="number" placeholder="Mobile Phone"></ion-input>
+      <ion-input type="number" placeholder="Birthday"></ion-input>
+      <ion-input placeholder="How Did You Hear About Nossi?"></ion-input>
+      <ion-list>
+          <ion-radio-group>
+            <ion-list-header>
+              <ion-label>Ok to Text?</ion-label>
+            </ion-list-header>
+        
+            <ion-item>
+              <ion-label>Yes</ion-label>
+              <ion-radio slot="start" value="yes" checked></ion-radio>
+            </ion-item>
+        
+            <ion-item>
+              <ion-label>No</ion-label>
+              <ion-radio slot="start" value="no"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+      </ion-list>
+      <ion-list>
+          <ion-radio-group>
+            <ion-list-header>
+              <ion-label>Are you an International Student?</ion-label>
+            </ion-list-header>
+        
+            <ion-item>
+              <ion-label>Yes</ion-label>
+              <ion-radio slot="start" value="yes" checked></ion-radio>
+            </ion-item>
+        
+            <ion-item>
+              <ion-label>No</ion-label>
+              <ion-radio slot="start" value="no"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+      </ion-list>
+      <ion-list>
+        
+          <ion-item>
+            <ion-label>Highschool Graduation Date</ion-label>
+            <ion-select placeholder="Select One">
+              <ion-select-option>GED</ion-select-option>
+              <ion-select-option>2020</ion-select-option>
+              <ion-select-option>2019</ion-select-option>
+              <ion-select-option>2018</ion-select-option>
+              <ion-select-option>2017</ion-select-option>
+              <ion-select-option>2016</ion-select-option>
+              <ion-select-option>2015</ion-select-option>
+              <ion-select-option>2014</ion-select-option>
+              <ion-select-option>2013</ion-select-option>
+              <ion-select-option>2012</ion-select-option>
+              <ion-select-option>2011</ion-select-option>
+              <ion-select-option>2010</ion-select-option>
+              <ion-select-option>2009</ion-select-option>
+              <ion-select-option>2008</ion-select-option>
+              <ion-select-option>2007</ion-select-option>
+              <ion-select-option>2006</ion-select-option>
+              <ion-select-option>2005</ion-select-option>
+              <ion-select-option>2004</ion-select-option>
+              <ion-select-option>2003</ion-select-option>
+              <ion-select-option>2002</ion-select-option>
+              <ion-select-option>2001</ion-select-option>
+              <ion-select-option>2000</ion-select-option>
+            </ion-select>
+          </ion-item>
+        
+          <ion-item>
+            <ion-label>Program of Interest</ion-label>
+            <ion-select placeholder="Select One">
+              <ion-select-option>Graphic Design</ion-select-option>
+              <ion-select-option>Illustration</ion-select-option>
+              <ion-select-option>Photography</ion-select-option>
+              <ion-select-option>Web and Ineteractive Design</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item>
+              <ion-label>Intended Start Date</ion-label>
+              <ion-select placeholder="Select One">
+                <ion-select-option>Summer 2019</ion-select-option>
+                <ion-select-option>Spring 2019</ion-select-option>
+                <ion-select-option>Fall 2020</ion-select-option>
+                <ion-select-option>Future Date</ion-select-option>
+              </ion-select>
+            </ion-item>
+        
+        </ion-list>
+
+        <ion-button id="submitBtn" color="primary">Submit</ion-button>
+    </ion-list>
+  </ion-content>
+    
+  
